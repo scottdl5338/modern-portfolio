@@ -150,7 +150,7 @@ export const Hero = () => {
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                   <div className="flex items-center gap-3">
                     <div clasName="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                    <span className="text-sm font-medium">
+                    <span className="text-m font-medium">
                       Avaliable for work
                     </span>
                   </div>
@@ -160,9 +160,7 @@ export const Hero = () => {
                   <div className="text-2xl font-bold text-primary">
                     2nd Year Computer Science Student
                   </div>
-                  <div className="text-xs text-muted-foreground">
-                    Irvine Valley College
-                  </div>
+                  <div className="text-s">Irvine Valley College</div>
                 </div>
               </div>
             </div>
