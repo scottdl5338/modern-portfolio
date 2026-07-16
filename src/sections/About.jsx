@@ -8,7 +8,7 @@ const highlights = [
   },
   {
     icon: Sparkles,
-    title: "Agentic AI & Automation",
+    title: "Ag entic AI & Automation",
     desc: "Engineered LLM-powered ETL pipelines with Gemini 2.0 Flash to autonomously process data streams with 95% extraction accuracy.",
   },
   {
