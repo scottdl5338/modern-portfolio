@@ -32,7 +32,7 @@ export const Projects = () => {
               make an impact.
             </span>
           </h2>
-          <p className="text-muted-foreground animate-fade-in animation-delay-400">
+          <p className="text-muted animate-fade-in animation-delay-400">
             A selection of my recent projects.
           </p>
         </div>
