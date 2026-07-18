@@ -1,4 +1,5 @@
 import { ArrowUpRight, Github } from "lucide-react";
+import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
@@ -76,16 +77,18 @@ export const Projects = () => {
                 </div>
               </div>
               {/*Content */}
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">
+              <div className="p-6 space-y-4">
+                <h3 className="text-xl font-bold mb-2 transition-colors duration-300 group-hover:text-primary">
+                  {project.title}
+                </h3>
+                <p className="text-muted-foreground text-base mb-4 -mx-2 px-2 py-1 rounded-lg border border-transparent transition-all duration-300 hover:border-primary/50 hover:text-foreground">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs px-3 py-1 rounded-full bg-secondary text-secondary-foreground"
+                      className="text-sm px-3 py-1 rounded-full bg-secondary text-secondary-foreground border border-transparent transition-all duration-300 hover:border-primary/50 hover:text-primary"
                     >
                       {tag}
                     </span>
@@ -108,6 +111,13 @@ export const Projects = () => {
               </div>
             </div>
           ))}
+        </div>
+        {/*View All */}
+        <div className="text-center mt-12 animate-fade-in animation-delay-500">
+          <AnimatedBorderButton>
+            View All Projects
+            <ArrowUpRight className="w-5 h-5" />
+          </AnimatedBorderButton>
         </div>
       </div>
     </section>
