@@ -145,7 +145,7 @@ export const Hero = () => {
 
               <div className="relative glass round-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/profile-photo-v2.jpg"
                   alt="Devon Scott"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
