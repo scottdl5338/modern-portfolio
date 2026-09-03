@@ -6,7 +6,7 @@ const projects = [
     title: "MLB Stadium Planner",
     description:
       "A cross-platform desktop application built with a six-person Agile team, implementing five graph algorithms (Dijkstra's, A*, Prim's MST, BFS, DFS) for route and trip planning. Traced and fixed a data normalization bug causing disconnected graph nodes across two databases.",
-    image: "/projects/project2.png",
+    image: "/projects/mlb-stadium.svg",
     tags: ["C++", "Qt6", "SQLite", "CMake"],
     link: "#",
     github: "#",
@@ -15,7 +15,7 @@ const projects = [
     title: "Credit Risk MLOps Pipeline",
     description:
       "An end-to-end machine learning pipeline built solo, prioritizing reliability with automated data validation and drift monitoring to catch bad input before it reached the model. Containerized with Docker for reproducible behavior across environments.",
-    image: "/projects/project3.png",
+    image: "/projects/credit-risk.svg",
     tags: ["Python", "XGBoost", "scikit-learn", "FastAPI", "Docker"],
     link: "#",
     github: "https://github.com/scottdl5338/Credit-Risk-MLOps",
@@ -24,7 +24,7 @@ const projects = [
     title: "Employee Portal",
     description:
       "Production software built for a real client as part of a competitive Codebase student organization project team, shipping features via pull requests and code review in an Agile workflow.",
-    image: "/projects/project4.png",
+    image: "/projects/employee-portal.svg",
     tags: ["React", "FastAPI", "Docker", "GCP"],
     link: "#",
     github: "#",
