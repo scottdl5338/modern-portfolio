@@ -3,14 +3,31 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "AI Research Assistant",
+    title: "MLB Stadium Planner",
     description:
-      "An agentic pipeline that ingests research papers, extracts key findings, and answers questions using Gemini 2.0 Flash with a FastAPI backend and vector search.",
-    image: "/projects/project1.png",
-    tags: ["Python", "FastAPI", "Gemini", "Docker"],
+      "A cross-platform desktop application built with a six-person Agile team, implementing five graph algorithms (Dijkstra's, A*, Prim's MST, BFS, DFS) for route and trip planning. Traced and fixed a data normalization bug causing disconnected graph nodes across two databases.",
+    image: "/projects/project2.png",
+    tags: ["C++", "Qt6", "SQLite", "CMake"],
     link: "#",
-    github: "https://github.com/user/project1",
-    wip: true,
+    github: "#",
+  },
+  {
+    title: "Credit Risk MLOps Pipeline",
+    description:
+      "An end-to-end machine learning pipeline built solo, prioritizing reliability with automated data validation and drift monitoring to catch bad input before it reached the model. Containerized with Docker for reproducible behavior across environments.",
+    image: "/projects/project3.png",
+    tags: ["Python", "XGBoost", "scikit-learn", "FastAPI", "Docker"],
+    link: "#",
+    github: "https://github.com/scottdl5338/Credit-Risk-MLOps",
+  },
+  {
+    title: "Employee Portal",
+    description:
+      "Production software built for a real client as part of a competitive Codebase student organization project team, shipping features via pull requests and code review in an Agile workflow.",
+    image: "/projects/project4.png",
+    tags: ["React", "FastAPI", "Docker", "GCP"],
+    link: "#",
+    github: "#",
   },
 ];
 
