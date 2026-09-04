@@ -163,9 +163,9 @@ export const Hero = () => {
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-800">
                   <div className="text-2xl font-bold text-primary">
-                    2nd Year Computer Science Student
+                    3rd Year Computer Science Student
                   </div>
-                  <div className="text-s">Irvine Valley College</div>
+                  <div className="text-s">Cal Poly San Luis Obispo</div>
                 </div>
               </div>
             </div>

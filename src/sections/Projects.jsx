@@ -5,11 +5,11 @@ const projects = [
   {
     title: "MLB Stadium Planner",
     description:
-      "A cross-platform desktop application built with a six-person Agile team, implementing five graph algorithms (Dijkstra's, A*, Prim's MST, BFS, DFS) for route and trip planning. Traced and fixed a data normalization bug causing disconnected graph nodes across two databases.",
-    image: "/projects/mlb-stadium.svg",
+      "A Qt6 C++ desktop app for browsing MLB team and stadium data, built collaboratively with a small student team for CS1D (Data Structures). Implemented a hand-written generic quicksort for the data layer, a filterable/sortable team browser, and a per-stadium souvenir shopping cart, backed by a custom SQLite data-access layer.",
+    image: "/projects/mlb-stadium.png",
     tags: ["C++", "Qt6", "SQLite", "CMake"],
     link: "#",
-    github: "#",
+    github: "https://github.com/ZacharyOllivierre/Project-2",
   },
   {
     title: "Credit Risk MLOps Pipeline",
@@ -21,13 +21,22 @@ const projects = [
     github: "https://github.com/scottdl5338/Credit-Risk-MLOps",
   },
   {
-    title: "Employee Portal",
+    title: "SOG Field Reports",
     description:
-      "Production software built for a real client as part of a competitive Codebase student organization project team, shipping features via pull requests and code review in an Agile workflow.",
+      "Production software built for a real construction special-inspections client, as part of a competitive Codebase student organization project team. Digitizes multi-agency field inspection reports — a searchable report dashboard, canvas-based e-signatures, and role-based user management — shipped via pull requests and code review.",
     image: "/projects/employee-portal.svg",
-    tags: ["React", "FastAPI", "Docker", "GCP"],
+    tags: ["React", "Vite", "Supabase", "PostgreSQL"],
     link: "#",
-    github: "#",
+    github: "https://github.com/The-Code-Base/sog-dev",
+  },
+  {
+    title: "Campus Tour Planner",
+    description:
+      "A Qt6 C++ desktop app that plans multi-stop college campus tours — a nearest-neighbor algorithm computes an optimized visiting order, tracks travel distance, and simulates souvenir shopping at each stop. Built collaboratively with a small student team for CS1D (Data Structures).",
+    image: "/projects/college-tour.png",
+    tags: ["C++", "Qt6", "SQLite", "CMake"],
+    link: "#",
+    github: "https://github.com/Akil0814/College_Tour",
   },
 ];
 
@@ -81,12 +90,16 @@ export const Projects = () => {
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
                   <a
-                    href={project.link}
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <Github className="w-5 h-5" />
@@ -114,12 +127,16 @@ export const Projects = () => {
                 <div className="flex gap-4">
                   <a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm font-medium text-primary hover:underline"
                   >
                     View Project
                   </a>
                   <a
                     href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-sm font-medium text-muted-foreground hover:underline"
                   >
                     GitHub
