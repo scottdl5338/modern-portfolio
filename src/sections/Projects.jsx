@@ -5,7 +5,7 @@ const projects = [
   {
     title: "MLB Stadium Planner",
     description:
-      "A Qt6 C++ desktop app for browsing MLB team and stadium data, built collaboratively with a small student team for CS1D (Data Structures). Implemented a hand-written generic quicksort for the data layer, a filterable/sortable team browser, and a per-stadium souvenir shopping cart, backed by a custom SQLite data-access layer.",
+      "A Qt6 C++ desktop app for browsing MLB team and stadium data, built with a student team for CS1D (Data Structures). Implemented A*, Dijkstra's, BFS, and DFS graph algorithms for stadium-to-stadium route search, plus a hand-written generic quicksort, a filterable team browser, and a per-stadium souvenir shopping cart.",
     image: "/projects/mlb-stadium.png",
     tags: ["C++", "Qt6", "SQLite", "CMake"],
     link: "#",
