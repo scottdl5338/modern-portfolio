@@ -1,5 +1,14 @@
 const experiences = [
   {
+    period: "Aug 2024 - May 2025",
+    title: "AVID & Engineering Tutor - College Corps Fellow",
+    company: "California College Corps",
+    description:
+      "Served as a California College Corps Fellow, completing 450+ hours of tutoring across three Irvine Unified School District sites over the academic year: assisted an Engineering class as a teaching aide at University High School; tutored AVID students - and other subjects as needed - at Rancho San Joaquin Middle School; and served as an AVID tutor at Vista Verde K-8. Awarded the Segal AmeriCorps National Service Award for 450+ hours of service.",
+    technologies: ["Tutoring", "Mentoring", "Public Speaking", "Curriculum Support"],
+    current: false,
+  },
+  {
     period: "Oct 2025 - Dec 2025",
     title: "Software Engineer",
     company: "Codebase Student Organization",
@@ -24,15 +33,6 @@ const experiences = [
     description:
       "Built a Qt6 C++ desktop app that plans multi-stop college campus tours - a nearest-neighbor algorithm computes an optimized visiting order, tracks travel distance, and simulates souvenir shopping at each stop. Built collaboratively with a student team for CS1D (Data Structures).",
     technologies: ["C++", "Qt6", "SQLite", "CMake", "Git"],
-    current: false,
-  },
-  {
-    period: "Aug 2024 - May 2025",
-    title: "AVID & Engineering Tutor - College Corps Fellow",
-    company: "California College Corps",
-    description:
-      "Served as a California College Corps Fellow, completing 450+ hours of tutoring across three Irvine Unified School District sites over the academic year: assisted an Engineering class as a teaching aide at University High School; tutored AVID students - and other subjects as needed - at Rancho San Joaquin Middle School; and served as an AVID tutor at Vista Verde K-8. Awarded the Segal AmeriCorps National Service Award for 450+ hours of service.",
-    technologies: ["Tutoring", "Mentoring", "Public Speaking", "Curriculum Support"],
     current: false,
   },
   {
