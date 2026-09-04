@@ -62,7 +62,7 @@ export const About = () => {
                 and building code that survives the real world
               </p>
               <p>
-                Currently focused on securing a Summer 2026 internship where I
+                Currently focused on securing a Summer 2027 internship where I
                 can help scale the next generation of AI-driven infrastructure
                 while continuing my studies at Cal Poly San Luis Obispo, where
                 I transferred in as a third-year Computer Science student

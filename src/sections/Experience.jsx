@@ -1,61 +1,38 @@
 const experiences = [
   {
-    period: "Jan 2026 - Mar 2026",
+    period: "Oct 2025 - Dec 2025",
     title: "Software Engineer",
-    company: "Codebase",
+    company: "Codebase Student Organization",
     description:
-      "Built a full-stack employee portal for Structural Observation Group Inc. using React and JSX, delivering a responsive frontend interface integrated with a FastAPI backend and deployed on GCP.",
-    technologies: ["React", "JSX", "HTML", "CSS", "FastAPI", "GCP"],
+      "Selected for a competitive project team to build production software digitizing field inspection reports for a real construction special-inspections client. Built multiple jurisdiction-specific digital inspection forms - LA County Building & Safety, Registered Deputy Inspector, and Special Inspection - plus a reusable data-sheets section for the BFI investigation report and canvas-based e-signature capture.",
+    technologies: ["React", "Vite", "Supabase", "PostgreSQL", "JavaScript"],
     current: false,
   },
   {
-    period: "Nov 2025 - Jan 2026",
+    period: "2025 - 2026",
     title: "ML Engineer",
     company: "Personal Project",
     description:
-      "Designed and deployed an end-to-end credit risk MLOps pipeline with automated data validation, feature drift monitoring, and a REST API serving XGBoost predictions. Achieved 0.84 F1 score with 12% improvement over baseline.",
-    technologies: [
-      "Python",
-      "XGBoost",
-      "PostgreSQL",
-      "Docker",
-      "FastAPI",
-      "GCP",
-      "GitHub Actions",
-    ],
+      "Built an end-to-end machine learning pipeline solo, adding Pydantic-based input validation and PSI-based drift monitoring to catch bad or shifted input before it reached the model. Diagnosed class imbalance in the training data and applied XGBoost's scale_pos_weight alongside a GridSearchCV hyperparameter sweep, nearly doubling recall on high-risk applicants from 36% to 58%. Containerized the pipeline with Docker and deployed it as a FastAPI web service.",
+    technologies: ["Python", "XGBoost", "scikit-learn", "FastAPI", "Docker"],
     current: false,
   },
   {
-    period: "Spring 2025",
-    title: "AI Automation Engineer",
-    company: "Personal Project",
-    description:
-      "Built and deployed a production AI automation pipeline processing 70-80 daily voice calls for a real estate business. Integrated Gemini API for unstructured data extraction, Twilio for call ingestion, and Google Apps Script for automated database routing.",
-    technologies: [
-      "Python",
-      "Gemini API",
-      "Twilio API",
-      "Google Apps Script",
-      "GCP",
-    ],
-    current: false,
-  },
-  {
-    period: "Jan 2026 - Mar 2026",
+    period: "Jan 2026 - May 2026",
     title: "Software Developer",
-    company: "Academic Team Project",
+    company: "Saddleback College (CS1D)",
     description:
-      "Built a cross-platform College Tour Planner desktop application in C++ with Qt6 and SQLite. Implemented five graph algorithms including A*, Dijkstra, Prim's MST, DFS, and BFS in a collaborative Agile team environment.",
+      "Built a Qt6 C++ desktop app that plans multi-stop college campus tours - a nearest-neighbor algorithm computes an optimized visiting order, tracks travel distance, and simulates souvenir shopping at each stop. Built collaboratively with a student team for CS1D (Data Structures).",
     technologies: ["C++", "Qt6", "SQLite", "CMake", "Git"],
     current: false,
   },
   {
     period: "Aug 2024 - May 2025",
-    title: "Engineering Tutor",
-    company: "Irvine Valley College",
+    title: "AVID & Engineering Tutor - College Corps Fellow",
+    company: "California College Corps",
     description:
-      "Supported 30+ students per semester in CS and engineering lab environments. Resolved 100+ technical issues maintaining 89% workstation uptime. Earned the Segal AmeriCorps National Award for 450+ service hours.",
-    technologies: ["Java", "C++", "Python", "Linux", "Git"],
+      "Served as a California College Corps Fellow, completing 450+ hours of tutoring across three Irvine Unified School District sites over the academic year: assisted an Engineering class as a teaching aide at University High School; tutored AVID students - and other subjects as needed - at Rancho San Joaquin Middle School; and served as an AVID tutor at Vista Verde K-8. Awarded the Segal AmeriCorps National Service Award for 450+ hours of service.",
+    technologies: ["Tutoring", "Mentoring", "Public Speaking", "Curriculum Support"],
     current: false,
   },
   {
